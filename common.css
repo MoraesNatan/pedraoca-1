@@ -1,0 +1,32 @@
+div {
+	display: flex;
+}
+.container {
+	padding: 50px;
+	flex-direction: column;
+}
+.content {
+	flex-direction: column;
+}
+.footer {
+	flex-direction: column;
+	flex: 1;
+}
+.list {
+	flex: 1;
+}
+ul {
+	display: flex;
+	flex-direction: row;
+	padding: 0;
+}
+p {
+	flex: 1;
+}
+
+ul li {
+	list-style: none;
+	padding: 15px 20px;
+	margin-right: 5px;
+	cursor: pointer;
+}
