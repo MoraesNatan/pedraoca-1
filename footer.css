@@ -9,3 +9,8 @@ Tasks: Thiaguinho
     margin-top: 20px;/*borda arredondada*/
     border-radius: 10px;/*centralizar texto*/
 }
+.copyright{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
