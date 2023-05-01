@@ -1,10 +1,11 @@
 /* 
 Tasks: Thiaguinho
-
-- Alterar a cor do fundo do footer para #336633 utilizando a classe .footer
-- Alterar a margin-top do footer para 20px utilizando a classe .footer
-- Definir o radius (borda arredondada) do footer para 10px utilizando a classe .footer
 - Centralizar o texto utilizando a classe .copyright
 - Alterar o tamanho da fonte para 20px utilizando a classe .copyright
 - Alterar a cor da fonte para #fff utilizando a classe .copyright
 */
+.footer{
+    background-color: #336633;/*cor de fundo*/
+    margin-top: 20px;/*borda arredondada*/
+    border-radius: 10px;/*centralizar texto*/
+}
