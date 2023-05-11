@@ -7,3 +7,15 @@ Tasks: Jonas
 - Alterar a fonte dos botões Entrar e Cadastre-se para 20px utilizando a classe .button
 - Adicionar uma margem de 20px (margin-left: 20px;) do lado esquerdo dos botões de entrar e cadastre-se utilizando a classe .button
 */
+.list-item{
+    background-color: #363;
+    border-radius: 10px;
+}
+.text-item{
+    color:#fff
+}
+.button{
+    font-size: 20px;
+    margin-left: 20px;
+
+}
