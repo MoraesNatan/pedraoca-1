@@ -12,4 +12,17 @@ font-size: 20px;
 
 .destaque {
     font-weight:bold;
-    background-color:#8f8; }
+    background-color:#8f8; 
+}
+
+.box {
+    display: flex;
+    border: 1px solid;
+    flex-direction: row;
+}
+.box-inside {
+    height: 100px;
+    width: 290px;
+/*    float: left;*/
+    border: 1px solid #333;
+}

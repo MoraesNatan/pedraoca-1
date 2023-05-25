@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="common.css">
+	<link rel="stylesheet" type="text/css" href="header.css">
+	<link rel="stylesheet" type="text/css" href="contact.css">
+	<link rel="stylesheet" type="text/css" href="content.css">
+	<link rel="stylesheet" type="text/css" href="footer.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Trabalho em equipe</title>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<ul class="list">
+				<li class="list-item"><a class="text-item" href="index.html">Home</a></li>
+				<li class="list-item"><a class="text-item" href="">Sobre nós</a></li>
+				<li class="list-item"><a class="text-item" href="contact.html">Contato</a></li>
+			</ul>
+			<div>
+				<a class="button" href="">Entrar</a>
+				<a class="button" href="">Cadastre-se</a>
+			</div>
+		</div>
+		<div class="content">
+			<form method="POST">
+				<b>Input type text</b>
+				<span class="info">Cria uma caixa de texto onde os usuários podem digitar texto.</span>
+				<input type="text" name="user-name" placeholder="Nome">
+
+				<b>Input type email</b>
+				<span class="info">Cria um campo de entrada de e-mail que valida se o formato inserido corresponde a um endereço de e-mail.</span>
+				<input type="email" name="user-mail" placeholder="Email"> 
+
+				<b>Input type password</b>
+				<span class="info">Semelhante ao input type="text", mas oculta os caracteres digitados, geralmente usada para senhas.</span>
+				<input type="password" name="password"  placeholder="Senha">
+
+				<b>Input type hidden</b>
+				<span class="info" style="margin-bottom: 20px;">Deixa o input oculto na tela</span>
+				<input type="hidden" name="user-id" value="15462">
+
+				<b>Input type file</b>
+				<span class="info">Cria um botão que permite aos usuários fazer upload de arquivos do seu dispositivo.</span>
+				<input type="file" name="identification-document" multiple> 
+
+				<b>Input type date</b>
+				<span class="info">Cria um campo onde os usuários podem selecionar uma data.</span>
+				<input type="date" name="birth-date"> 
+
+				<b>Input type number</b>
+				<span class="info">Cria um campo onde os usuários podem inserir um valor numérico.</span>
+				<input type="number" name="age"  placeholder="Idade"> 
+
+				<b>Inpyt type checkbox</b>
+				<span class="info">Cria uma caixa de seleção que permite aos usuários selecionar uma ou várias opções.</span>
+				<div>
+					<input type="checkbox" name="whatsapp"> <span>Whatsapp</span>
+					<input type="checkbox" name="email"> <span>Email</span>
+					<input type="checkbox" name="phone"> <span>Telefone</span>
+					<input type="checkbox" name="instagram"> <span>Instagram</span>
+				</div>
+
+				<b>Input type radio</b>
+				<span class="info">Cria botões de opção, permitindo aos usuários selecionar uma opção exclusiva dentro de um grupo.</span>
+				<div>
+					<input type="radio" name="sexo" value="masculino"> <span>Masculino</span>
+					<input type="radio" name="sexo" value="feminino"> <span>Feminino</span>
+					<input type="radio" name="sexo" value="outro"> <span>Outro</span>
+					<input type="radio" name="sexo" value="lgbtqia"> <span>LGBTQIA</span>
+				</div>
+
+				<b>Textarea</b>
+				<span class="info">Permite que os usuários digitem e editem texto em várias linhas</span>
+				<textarea name="description" rows="3"></textarea>
+
+				<b>Input type submit</b>
+				<span class="info">Exibe um botão que, quando clicado, envia os dados do formulário para um servidor.</span>
+				<input type="submit" value="Enviar"> 
+
+				<b>Input type reset</b>
+				<span class="info">Exibe um botão que permite aos usuários redefinir os valores de um formulário para seus valores padrão.</span>
+				<input type="reset" value="Resetar formulário"> 
+			</form>
+		</div>
+		<div class="footer">
+			<p class="copyright">Copyright - Todos os direitos reservados</p>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.info {
+	margin-bottom: 10px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+input, textarea {
+	max-width: 200px;
+	margin-bottom: 20px;
+}

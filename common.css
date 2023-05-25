@@ -7,6 +7,7 @@ div {
 }
 .content {
 	flex-direction: column;
+	padding: 20px;
 }
 .footer {
 	flex-direction: column;
@@ -30,3 +31,4 @@ ul li {
 	margin-right: 5px;
 	cursor: pointer;
 }
+
